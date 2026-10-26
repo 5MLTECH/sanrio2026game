@@ -18,7 +18,7 @@ Do not expose `AZURE_SPEECH_KEY` as a frontend build argument or commit it to th
 ```sh
 docker build -t sanrio2026game .
 docker run --rm -p 8080:80 \
-  -e APP_URL='https://sanrio.mmdbfiles.com' \
+  -e APP_URL='https://your-asset-host.example' \
   -e AZURE_SPEECH_KEY='replace-me' \
   -e AZURE_SPEECH_REGION='eastasia' \
   -e TZ='Asia/Manila' \
