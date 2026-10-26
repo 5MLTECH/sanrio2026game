@@ -6,6 +6,7 @@ This repository packages the existing browser game for Docker/Coolify. Apache se
 
 | Variable | Purpose | Required | Used in |
 |---|---|---:|---|
+| `APP_URL` | Base URL for externally hosted game assets, without a trailing slash | Yes | `index.php`, `css/style.php`, frontend runtime configuration |
 | `AZURE_SPEECH_KEY` | Azure Speech subscription key used to issue short-lived browser tokens and proxy pronunciation assessment requests | Yes, for speech assessment | `api/speech-config.php`, `api/pronunciation.php` |
 | `AZURE_SPEECH_REGION` | Azure Speech resource region | No (defaults to `eastasia`) | `api/bootstrap.php` |
 | `TZ` | PHP/container timezone | No (recommended: `Asia/Manila`) | `php.ini` |
@@ -17,6 +18,7 @@ Do not expose `AZURE_SPEECH_KEY` as a frontend build argument or commit it to th
 ```sh
 docker build -t sanrio2026game .
 docker run --rm -p 8080:80 \
+  -e APP_URL='https://sanrio.mmdbfiles.com' \
   -e AZURE_SPEECH_KEY='replace-me' \
   -e AZURE_SPEECH_REGION='eastasia' \
   -e TZ='Asia/Manila' \
@@ -30,7 +32,7 @@ Open `http://localhost:8080`. The health check is available at `/health.php`.
 1. Create an application from this GitHub repository and select the migration branch/approved merge commit.
 2. Choose **Dockerfile** as the build pack; the Dockerfile is at the repository root.
 3. Set container port **80** and configure the public HTTPS domain. Microphone access requires a secure browser context.
-4. Add `AZURE_SPEECH_KEY` as a runtime secret. Add `AZURE_SPEECH_REGION` and `TZ` using the values above.
+4. Add `APP_URL` and `AZURE_SPEECH_KEY` as runtime variables (keep the key secret). Add `AZURE_SPEECH_REGION` and `TZ` using the values above.
 5. Do not configure any build-time secret arguments.
 6. Use `/health.php` as the health-check path if Coolify requests one.
 7. Deploy and verify the homepage, static assets, microphone permission, one full game round, Azure scoring, and result sharing on the target browsers.

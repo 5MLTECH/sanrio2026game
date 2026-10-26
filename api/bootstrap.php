@@ -24,6 +24,21 @@ function azure_region(): string
     return $region;
 }
 
+function app_url(): string
+{
+    $url = rtrim(required_env('APP_URL'), '/');
+    $parts = parse_url($url);
+    if (
+        filter_var($url, FILTER_VALIDATE_URL) === false
+        || !isset($parts['scheme'], $parts['host'])
+        || !in_array(strtolower($parts['scheme']), ['http', 'https'], true)
+    ) {
+        throw new RuntimeException('APP_URL must be an absolute HTTP or HTTPS URL.');
+    }
+
+    return $url;
+}
+
 function no_store_headers(string $contentType): void
 {
     header('Content-Type: ' . $contentType);

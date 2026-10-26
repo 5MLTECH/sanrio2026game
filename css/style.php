@@ -1,3 +1,11 @@
+<?php
+
+declare(strict_types=1);
+
+require __DIR__ . '/../api/bootstrap.php';
+$appUrl = app_url();
+header('Content-Type: text/css; charset=utf-8');
+?>
 /* =====================================================
    Sanrio Say My Name - Game Styles
    =====================================================
@@ -10,7 +18,7 @@
    ======================== */
 @font-face {
   font-family: "AG Book Rounded";
-  src: url("https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/font/dfn/DFNYuanXBold-B5.TTC")
+  src: url("<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/font/dfn/DFNYuanXBold-B5.TTC")
     format("opentype");
   font-weight: 400;
   font-style: normal;

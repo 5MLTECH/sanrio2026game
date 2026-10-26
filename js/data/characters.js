@@ -60,11 +60,11 @@ window.SanrioGame.CHARACTERS = [
       "how low kitty",
     ],
     image:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/1x/01_character_hellokitty.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/1x/01_character_hellokitty.png",
     image4x:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/4x/01_character_hellokitty@4x.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/4x/01_character_hellokitty@4x.png",
     voicePath:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/character-names-pronounce/Hello Kitty_voice file.aac",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/character-names-pronounce/Hello Kitty_voice file.aac",
     azureRef: "Hello Kitty",
     nameSyllables: ["HEL", "LO", "|", "KIT", "TY"],
   },
@@ -111,11 +111,11 @@ window.SanrioGame.CHARACTERS = [
       "sin a more role",
     ],
     image:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/1x/02_character_cinnamoroll.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/1x/02_character_cinnamoroll.png",
     image4x:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/4x/02_character_cinnamoroll@4x.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/4x/02_character_cinnamoroll@4x.png",
     voicePath:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/character-names-pronounce/Cinnamoroll_voice file.aac",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/character-names-pronounce/Cinnamoroll_voice file.aac",
     azureRef: "Cinnamoroll",
     azureRefAlt: "Shinamoroll",
     nameSyllables: ["CIN", "NA", "MO", "ROLL"],
@@ -151,11 +151,11 @@ window.SanrioGame.CHARACTERS = [
       "the daniel",
     ],
     image:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/1x/03_character_deardaniel.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/1x/03_character_deardaniel.png",
     image4x:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/4x/03_character_deardaniel@4x.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/4x/03_character_deardaniel@4x.png",
     voicePath:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/character-names-pronounce/Dear Daniel_voice file.aac",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/character-names-pronounce/Dear Daniel_voice file.aac",
     azureRef: "Dear Daniel",
     nameSyllables: ["DEAR", "|", "DA", "NIEL"],
   },
@@ -222,11 +222,11 @@ window.SanrioGame.CHARACTERS = [
       "goodie mama",
     ],
     image:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/1x/04_character_gudetama.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/1x/04_character_gudetama.png",
     image4x:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/4x/04_character_gudetama@4x.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/4x/04_character_gudetama@4x.png",
     voicePath:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/character-names-pronounce/Gudetama_voice file.aac",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/character-names-pronounce/Gudetama_voice file.aac",
     azureRef: "Gu De Ta Ma",
     nameSyllables: ["GU", "|", "DE", "|", "TA", "|", "MA"],
   },
@@ -282,11 +282,11 @@ window.SanrioGame.CHARACTERS = [
       "han",
     ],
     image:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/1x/05_character_hangyodon.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/1x/05_character_hangyodon.png",
     image4x:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/4x/05_character_hangyodon@4x.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/4x/05_character_hangyodon@4x.png",
     voicePath:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/character-names-pronounce/Hangyodon_voice file.aac",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/character-names-pronounce/Hangyodon_voice file.aac",
     azureRef: "Hangyodon",
     nameSyllables: ["HAN", "GYO", "DON"],
   },
@@ -320,11 +320,11 @@ window.SanrioGame.CHARACTERS = [
       "hero mimi",
     ],
     image:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/1x/06_character_hellomimmy.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/1x/06_character_hellomimmy.png",
     image4x:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/4x/06_character_hellomimmy@4x.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/4x/06_character_hellomimmy@4x.png",
     voicePath:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/character-names-pronounce/Hello Mimmy_voice file.aac",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/character-names-pronounce/Hello Mimmy_voice file.aac",
     azureRef: "Hello Mimmy",
     nameSyllables: ["HEL", "LO", "|", "MIM", "MY"],
   },
@@ -386,11 +386,11 @@ window.SanrioGame.CHARACTERS = [
       "care oh",
     ],
     image:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/1x/07_character_kerokerokeroppi.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/1x/07_character_kerokerokeroppi.png",
     image4x:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/4x/07_character_kerokerokeroppi@4x.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/4x/07_character_kerokerokeroppi@4x.png",
     voicePath:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/character-names-pronounce/Kerokerokeropi_voice file.aac",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/character-names-pronounce/Kerokerokeropi_voice file.aac",
     azureRef: "Kero Kero Keroppi",
     azureRefAlt: "Kelo Kelo Keloppi",
     nameSyllables: ["KE", "RO", "|", "KE", "RO", "|", "KE", "ROP", "PI"],
@@ -436,11 +436,11 @@ window.SanrioGame.CHARACTERS = [
       "career me",
     ],
     image:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/1x/08_character_kirimichan.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/1x/08_character_kirimichan.png",
     image4x:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/4x/08_character_kirimichan@4x.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/4x/08_character_kirimichan@4x.png",
     voicePath:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/character-names-pronounce/Kinimichan_voice file.aac",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/character-names-pronounce/Kinimichan_voice file.aac",
     azureRef: "Kirimi Chan",
     azureRefAlt: "Kilimi Chan",
     nameSyllables: ["KI", "RI", "MI", "|", "CHAN", "."],
@@ -483,11 +483,11 @@ window.SanrioGame.CHARACTERS = [
       "gloomy",
     ],
     image:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/1x/09_character_kuromi.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/1x/09_character_kuromi.png",
     image4x:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/4x/09_character_kuromi@4x.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/4x/09_character_kuromi@4x.png",
     voicePath:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/character-names-pronounce/Kuromi_voice file.aac",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/character-names-pronounce/Kuromi_voice file.aac",
     azureRef: "Kuromi",
     azureRefAlt: "Kulomi",
     nameSyllables: ["KU", "RO", "MI"],
@@ -542,11 +542,11 @@ window.SanrioGame.CHARACTERS = [
       "りとるついんすたー",
     ],
     image:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/1x/10_character_littletwinstars.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/1x/10_character_littletwinstars.png",
     image4x:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/4x/10_character_littletwinstars@4x.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/4x/10_character_littletwinstars@4x.png",
     voicePath:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/character-names-pronounce/Little Twin Star_voice file.aac",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/character-names-pronounce/Little Twin Star_voice file.aac",
     azureRef: "Little Twin Stars",
     nameSyllables: ["LIT", "TLE", "|", "TWIN", "|", "S", "TARS"],
   },
@@ -590,11 +590,11 @@ window.SanrioGame.CHARACTERS = [
       "mount cream",
     ],
     image:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/1x/11_character_marroncream.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/1x/11_character_marroncream.png",
     image4x:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/4x/11_character_marroncream@4x.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/4x/11_character_marroncream@4x.png",
     voicePath:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/character-names-pronounce/Marroncream_voice file.mp3",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/character-names-pronounce/Marroncream_voice file.mp3",
     azureRef: "Marron Cream",
     azureRefAlt: "Malon Cream",
     nameSyllables: ["MAR", "RON", "|", "CREAM"],
@@ -665,11 +665,11 @@ window.SanrioGame.CHARACTERS = [
       "ミナノタボ",
     ],
     image:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/1x/12_character_minnanotabo.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/1x/12_character_minnanotabo.png",
     image4x:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/4x/12_character_minnanotabo@4x.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/4x/12_character_minnanotabo@4x.png",
     voicePath:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/character-names-pronounce/Mina no tabo_voice file.aac",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/character-names-pronounce/Mina no tabo_voice file.aac",
     azureRef: "Minna No Tabo",
     // Display with macrons rendered as base letter + CSS overline span,
     // so the macron uses the same webfont as the rest of the name.
@@ -710,11 +710,11 @@ window.SanrioGame.CHARACTERS = [
       "my merrily",
     ],
     image:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/1x/13_character_mymelody.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/1x/13_character_mymelody.png",
     image4x:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/4x/13_character_mymelody@4x.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/4x/13_character_mymelody@4x.png",
     voicePath:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/character-names-pronounce/My Melody_voice file.aac",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/character-names-pronounce/My Melody_voice file.aac",
     azureRef: "My Melody",
     nameSyllables: ["MY", "|", "ME", "LO", "DY"],
   },
@@ -756,11 +756,11 @@ window.SanrioGame.CHARACTERS = [
       "まいすいーとぴあの",
     ],
     image:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/1x/14_character_mysweetpiano.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/1x/14_character_mysweetpiano.png",
     image4x:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/4x/14_character_mysweetpiano@4x.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/4x/14_character_mysweetpiano@4x.png",
     voicePath:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/character-names-pronounce/My Sweet Piano_voice file.aac",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/character-names-pronounce/My Sweet Piano_voice file.aac",
     azureRef: "My Sweet Piano",
     nameSyllables: ["MY", "|", "SWEET", "|", "PI", "A", "NO"],
   },
@@ -801,11 +801,11 @@ window.SanrioGame.CHARACTERS = [
       "posh echo",
     ],
     image:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/1x/15_character_pochacco.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/1x/15_character_pochacco.png",
     image4x:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/4x/15_character_pochacco@4x.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/4x/15_character_pochacco@4x.png",
     voicePath:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/character-names-pronounce/Pochacco_voice file.aac",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/character-names-pronounce/Pochacco_voice file.aac",
     // Split into word boundaries so Azure scores "Po" in its own word
     // context — fixes "Po" under-scoring. Display remains "Pochacco"
     // (no space) because the span builder skips "|" when displayName
@@ -857,11 +857,11 @@ window.SanrioGame.CHARACTERS = [
       "pudding",
     ],
     image:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/1x/16_character_pompompurin.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/1x/16_character_pompompurin.png",
     image4x:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/4x/16_character_pompompurin@4x.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/4x/16_character_pompompurin@4x.png",
     voicePath:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/character-names-pronounce/Pompompurin_voice file.aac",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/character-names-pronounce/Pompompurin_voice file.aac",
     azureRef: "Pom Pom Pu Rin",
     azureRefAlt: "Pom Pom Pu Lin",
     nameSyllables: ["POM", "|", "POM", "|", "PU", "|", "RIN"],
@@ -929,11 +929,11 @@ window.SanrioGame.CHARACTERS = [
       "maru",
     ],
     image:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/1x/17_character_badbadtzmaru.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/1x/17_character_badbadtzmaru.png",
     image4x:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/4x/17_character_badbadtzmaru@4x.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/4x/17_character_badbadtzmaru@4x.png",
     voicePath:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/character-names-pronounce/Bad Badtz Maru_voice file.aac",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/character-names-pronounce/Bad Badtz Maru_voice file.aac",
     azureRef: "Baddo Batsu Maru",
     azureRefAlt: "Bad Batsu Maroo",
     // " " between "BAD" and "BADTZ", "-" between "BADTZ" and "MA"
@@ -973,11 +973,11 @@ window.SanrioGame.CHARACTERS = [
       "tuxedos am",
     ],
     image:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/1x/18_character_tuxedosam.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/1x/18_character_tuxedosam.png",
     image4x:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/4x/18_character_tuxedosam@4x.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/4x/18_character_tuxedosam@4x.png",
     voicePath:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/character-names-pronounce/Tuxedosam_voice file.aac",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/character-names-pronounce/Tuxedosam_voice file.aac",
     azureRef: "Tuxedo Sam",
     nameSyllables: ["TUX", "E", "DO", "|", "SAM"],
   },
@@ -1026,11 +1026,11 @@ window.SanrioGame.CHARACTERS = [
       "who saw",
     ],
     image:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/1x/19_character_usahana.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/1x/19_character_usahana.png",
     image4x:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/4x/19_character_usahana@4x.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/4x/19_character_usahana@4x.png",
     voicePath:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/character-names-pronounce/Usahana_voice file.mp3",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/character-names-pronounce/Usahana_voice file.mp3",
     azureRef: "U Sa Ha Na",
     // Display as "U.SA.HA.NA" — tight period separator between every syllable
     nameSyllables: ["U", ".", "SA", ".", "HA", ".", "NA"],
@@ -1073,11 +1073,11 @@ window.SanrioGame.CHARACTERS = [
       "wish well",
     ],
     image:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/1x/20_character_wishmemell.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/1x/20_character_wishmemell.png",
     image4x:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/characters/4x/20_character_wishmemell@4x.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/characters/4x/20_character_wishmemell@4x.png",
     voicePath:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/character-names-pronounce/Wish me mell_voice file.aac",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/character-names-pronounce/Wish me mell_voice file.aac",
     azureRef: "Wish Me Mell",
     nameSyllables: ["WISH", "|", "ME", "|", "MELL"],
   },
@@ -1094,9 +1094,9 @@ window.SanrioGame.TIERS = {
     labelEn: "Gold",
     minPercentage: 90,
     textImage:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/result_gold_text.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/game-visuals/result_gold_text.png",
     characterImage:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/result_gold_character.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/game-visuals/result_gold_character.png",
   },
   silver: {
     id: "silver",
@@ -1104,9 +1104,9 @@ window.SanrioGame.TIERS = {
     labelEn: "Silver",
     minPercentage: 75,
     textImage:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/result_sliver_text.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/game-visuals/result_sliver_text.png",
     characterImage:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/result_sliver_character.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/game-visuals/result_sliver_character.png",
   },
   copper: {
     id: "copper",
@@ -1114,8 +1114,8 @@ window.SanrioGame.TIERS = {
     labelEn: "Copper",
     minPercentage: 0,
     textImage:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/result_copper_text.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/game-visuals/result_copper_text.png",
     characterImage:
-      "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/result_copper_character.png",
+      window.APP_URL + "/sanrio2026game/assets/say-my-name/game-visuals/result_copper_character.png",
   },
 };

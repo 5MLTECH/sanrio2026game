@@ -1,3 +1,10 @@
+<?php
+
+declare(strict_types=1);
+
+require __DIR__ . '/api/bootstrap.php';
+$appUrl = app_url();
+?>
 <!doctype html>
 <html lang="zh-Hant">
   <head>
@@ -16,12 +23,12 @@
     <title>Say My Name | Sanrio Character Ranking 2026</title>
     <link
       rel="preload"
-      href="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/font/dfn/DFNYuanXBold-B5.TTC"
+      href="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/font/dfn/DFNYuanXBold-B5.TTC"
       as="font"
       type="font/collection"
       crossorigin
     />
-    <link rel="stylesheet" href="css/style.css?v=109" />
+    <link rel="stylesheet" href="css/style.php?v=109" />
   </head>
   <body>
     <div id="app">
@@ -30,7 +37,7 @@
         <img
           class="mute-icon"
           id="mute-icon"
-          src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/Volume.png"
+          src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/Volume.png"
           alt="Sound on"
         />
       </button>
@@ -41,18 +48,18 @@
       <div id="screen-home" class="screen">
         <!-- Full-screen stacked layers (all 1080x1920 assets) -->
         <img
-          src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/home_background_with_copyright.jpg"
+          src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/home_background_with_copyright.jpg"
           alt=""
           class="home-layer home-bg"
         />
         <img
-          src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/home_deco_top.png"
+          src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/home_deco_top.png"
           alt=""
           class="home-layer"
           style="z-index: 1"
         />
         <img
-          src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/home_title_top.png"
+          src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/home_title_top.png"
           alt="41st Sanrio Character Ranking 2026"
           class="home-layer"
           style="z-index: 2"
@@ -62,49 +69,49 @@
         <div class="home-characters" style="z-index: 3">
           <!-- First line  -->
           <img
-            src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/home_deco_character_1.png"
+            src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/home_deco_character_1.png"
             alt=""
             class="home-char-img home-char-1"
           />
           <img
-            src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/home_deco_character_2.png"
+            src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/home_deco_character_2.png"
             alt=""
             class="home-char-img home-char-2"
           />
           <img
-            src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/home_deco_character_3.png"
+            src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/home_deco_character_3.png"
             alt=""
             class="home-char-img home-char-3"
           />
           <!-- Second line  -->
           <img
-            src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/home_deco_character_4.png"
+            src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/home_deco_character_4.png"
             alt=""
             class="home-char-img home-char-4"
           />
           <img
-            src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/home_deco_character_5.png"
+            src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/home_deco_character_5.png"
             alt=""
             class="home-char-img home-char-5"
           />
           <!-- Third line  -->
           <img
-            src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/home_deco_character_6.png"
+            src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/home_deco_character_6.png"
             alt=""
             class="home-char-img home-char-6"
           />
           <img
-            src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/home_deco_character_7.png"
+            src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/home_deco_character_7.png"
             alt=""
             class="home-char-img home-char-7"
           />
           <img
-            src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/home_deco_character_8.png"
+            src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/home_deco_character_8.png"
             alt=""
             class="home-char-img home-char-8"
           />
           <img
-            src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/home_deco_character_9.png"
+            src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/home_deco_character_9.png"
             alt=""
             class="home-char-img home-char-9"
           />
@@ -112,7 +119,7 @@
 
         <!-- Game title (full-screen layer) -->
         <img
-          src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/home_title_bottom.png"
+          src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/home_title_bottom.png"
           alt="Say My Name"
           class="home-layer home-title-anim"
           style="z-index: 4"
@@ -122,7 +129,7 @@
         <div class="home-buttons" style="z-index: 5">
           <button class="home-btn home-btn-start" id="btn-start">
             <img
-              src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/home_btn_start.png"
+              src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/home_btn_start.png"
               alt="開始遊戲"
             />
           </button>
@@ -152,13 +159,13 @@
               muted
               playsinline
               preload="auto"
-              src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/intro-vd.mp4"
+              src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/intro-vd.mp4"
             ></video>
           </div>
           <!-- Start button -->
           <button class="popup-btn-img" id="btn-instructions-start">
             <img
-              src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/home_btn_start_now.png"
+              src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/home_btn_start_now.png"
               alt="立即開始"
             />
           </button>
@@ -213,14 +220,14 @@
           <div class="game-bg-anim" id="game-bg-anim">
             <!-- Normal bg: visible by default -->
             <img
-              src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/game_bg.jpg"
+              src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/game_bg.jpg"
               alt=""
               class="game-bg-anim-img game-bg-anim-default"
               id="game-bg-default"
             />
             <!-- Win bg: visible on success -->
             <img
-              src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/game_bg_win.jpg"
+              src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/game_bg_win.jpg"
               alt=""
               class="game-bg-anim-img game-bg-anim-win"
               id="game-bg-win"
@@ -243,7 +250,7 @@
         <!-- Track area (fills entire screen) -->
         <div class="track-area" id="track-area">
           <img
-            src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/game_bg_track.png"
+            src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/game_bg_track.png"
             alt=""
             class="track-bg-img"
           />
@@ -256,7 +263,7 @@
             <div id="character-rocker">
               <!-- Stars burst above character head on success (inside rocker so they rock together) -->
               <img
-                src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/game_win_effect.png"
+                src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/game_win_effect.png"
                 alt=""
                 id="win-stars"
                 class="win-stars"
@@ -268,13 +275,13 @@
           <!-- Finish line / Rope -->
           <div class="finish-line" id="finish-line">
             <img
-              src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/game_finishline_left.png"
+              src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/game_finishline_left.png"
               alt=""
               id="rope-left"
               class="rope-piece"
             />
             <img
-              src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/game_finishline_right.png"
+              src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/game_finishline_right.png"
               alt=""
               id="rope-right"
               class="rope-piece"
@@ -283,7 +290,7 @@
 
           <!-- Win effect (stars) -->
           <img
-            src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/game_win_effect.png"
+            src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/game_win_effect.png"
             alt=""
             id="win-effect"
             class="win-effect"
@@ -296,7 +303,7 @@
           <script>
             (function () {
               fetch(
-                "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/mic-star.svg",
+                "<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/mic-star.svg",
               )
                 .then(function (r) {
                   return r.text();
@@ -359,22 +366,22 @@
       <div id="screen-tier-result" class="screen">
         <!-- Full-screen stacked layers (all 1080x1920 assets) -->
         <img
-          src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/result_bg.jpg"
+          src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/result_bg.jpg"
           alt=""
           class="tier-layer tier-bg"
         />
         <img
-          src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/result_top_title.png"
+          src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/result_top_title.png"
           alt="多謝你"
           class="tier-layer tier-top-title"
         />
         <img
-          src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/result_middle_title.png"
+          src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/result_middle_title.png"
           alt=""
           class="tier-layer tier-middle-title"
         />
         <img
-          src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/result_bottom_title.png"
+          src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/result_bottom_title.png"
           alt=""
           class="tier-layer tier-bottom-title"
         />
@@ -399,19 +406,19 @@
             <div class="share-buttons" id="share-buttons">
               <button class="share-btn" id="btn-share-whatsapp">
                 <img
-                  src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/result_btn_whatsapp.png"
+                  src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/result_btn_whatsapp.png"
                   alt="WhatsApp"
                 />
               </button>
               <button class="share-btn" id="btn-share-facebook">
                 <img
-                  src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/result_btn_facebook.png"
+                  src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/result_btn_facebook.png"
                   alt="Facebook"
                 />
               </button>
               <button class="share-btn" id="btn-share-threads">
                 <img
-                  src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/result_btn_threads.png"
+                  src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/result_btn_threads.png"
                   alt="Threads"
                 />
               </button>
@@ -420,13 +427,13 @@
             <div class="tier-cta-buttons">
               <button class="tier-cta-btn" id="btn-vote">
                 <img
-                  src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/result_btn_vote.png"
+                  src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/result_btn_vote.png"
                   alt="投票"
                 />
               </button>
               <button class="tier-cta-btn" id="btn-more">
                 <img
-                  src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/btn_home_savesurprise.png"
+                  src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/btn_home_savesurprise.png"
                   alt="更多定額"
                 />
               </button>
@@ -444,18 +451,18 @@
       <div id="popup-more" class="popup">
         <div class="popup-more-card">
           <img
-            src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/result_popup_bg.png"
+            src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/result_popup_bg.png"
             alt=""
             class="popup-more-bg"
           />
           <img
-            src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/result_popup_deco.png"
+            src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/result_popup_deco.png"
             alt=""
             class="popup-more-deco"
           />
           <button class="popup-more-btn" id="btn-more-go">
             <img
-              src="https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/result_popup_btn_back.png"
+              src="<?= htmlspecialchars($appUrl, ENT_QUOTES, "UTF-8") ?>/sanrio2026game/assets/say-my-name/game-visuals/result_popup_btn_back.png"
               alt="回到主頁"
             />
           </button>

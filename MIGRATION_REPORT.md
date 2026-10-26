@@ -24,7 +24,8 @@ Audit date: 2026-10-26 (Asia/Manila)
 | `health.php` | Container/Coolify health endpoint |
 | `js/azure-speech.js` | Uses a short-lived token for streaming and the same-origin proxy for REST assessment |
 | `js/app.js` | Removes the hardcoded subscription key and reads the short-lived token |
-| `index.html` | Loads runtime speech configuration before application startup |
+| `index.php` | Renders asset URLs from `APP_URL` and loads runtime speech configuration before application startup |
+| `css/style.php` | Renders stylesheet asset URLs from `APP_URL` |
 | `.env.example`, `.gitignore`, `.dockerignore` | Documents variables and excludes secrets/build-only files |
 | `README.md` | Deployment and operations instructions |
 
@@ -38,6 +39,7 @@ The frontend design, game rules, scoring rules, character data, and database sch
 - Document root: `/var/www/html`.
 - Container port: `80`.
 - Environment variables: see `README.md`.
+- External asset origin: configured at runtime through required `APP_URL`; no asset-host origin is hardcoded in application HTML, CSS, or JavaScript.
 - Persistent storage: none required. There are no server-side upload, cache, session-dependent, or generated-data directories.
 - Secrets: runtime-only; no secret is copied into an image layer.
 
@@ -78,6 +80,7 @@ Executed and passed:
 - Apache `headers` and `rewrite` module presence.
 - HTTP `200` for `/` and `/health.php`, `405` for GET on the POST-only pronunciation endpoint, and `404` for an unknown path.
 - Production response headers and safe behavior when Azure configuration is absent.
+- Runtime `APP_URL` rendering in HTML, CSS, and JavaScript configuration using a non-default test origin.
 
 Not executed:
 

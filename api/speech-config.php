@@ -6,6 +6,7 @@ require __DIR__ . '/bootstrap.php';
 
 no_store_headers('application/javascript; charset=utf-8');
 
+$appUrl = app_url();
 $token = null;
 $region = null;
 
@@ -33,7 +34,8 @@ try {
 }
 
 printf(
-    "window.AZURE_SPEECH_TOKEN=%s;window.AZURE_SPEECH_REGION=%s;\n",
+    "window.APP_URL=%s;window.AZURE_SPEECH_TOKEN=%s;window.AZURE_SPEECH_REGION=%s;\n",
+    json_encode($appUrl, JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT),
     json_encode($token, JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT),
     json_encode($region, JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT),
 );

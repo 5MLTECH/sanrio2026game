@@ -8,7 +8,7 @@
  *      This avoids iOS Safari's <audio> interruption when speech
  *      recognition or other audio sessions activate.
  *
- * CDN: https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/bgm/
+ * CDN base is supplied at runtime through APP_URL.
  */
 
 window.SanrioGame = window.SanrioGame || {};
@@ -17,7 +17,7 @@ window.SanrioGame = window.SanrioGame || {};
   "use strict";
 
   var CDN =
-    "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/bgm/";
+    window.APP_URL + "/sanrio2026game/assets/say-my-name/bgm/";
 
   var SFX_FILES = {
     "btn-click": { file: "Button Click.mp3", volume: 0.24 },

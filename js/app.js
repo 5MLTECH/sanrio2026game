@@ -101,7 +101,7 @@ window.SanrioGame = window.SanrioGame || {};
     // Restore mute button UI from saved state
     if (this.dom.muteBtn && this.audio.isMuted()) {
       this.dom.muteIcon.src =
-        "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/Mute.png";
+        window.APP_URL + "/sanrio2026game/assets/say-my-name/game-visuals/Mute.png";
       this.dom.muteIcon.alt = "Sound off";
       this.dom.muteBtn.classList.add("muted");
     }
@@ -371,8 +371,8 @@ window.SanrioGame = window.SanrioGame || {};
         self.audio.setMuted(!isMuted);
         var nowMuted = !isMuted;
         self.dom.muteIcon.src = nowMuted
-          ? "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/Mute.png"
-          : "https://sanrio.mmdbfiles.com/sanrio2026game/assets/say-my-name/game-visuals/Volume.png";
+          ? window.APP_URL + "/sanrio2026game/assets/say-my-name/game-visuals/Mute.png"
+          : window.APP_URL + "/sanrio2026game/assets/say-my-name/game-visuals/Volume.png";
         self.dom.muteIcon.alt = nowMuted ? "Sound off" : "Sound on";
         self.dom.muteBtn.classList.toggle("muted", nowMuted);
       });
