@@ -474,13 +474,14 @@ $appUrl = app_url();
     <script src="https://cdn.jsdelivr.net/npm/microsoft-cognitiveservices-speech-sdk@1.40.0/distrib/browser/microsoft.cognitiveservices.speech.sdk.bundle-min.js"></script>
 
     <!-- Scripts (order matters) -->
+    <!-- Load runtime environment before modules construct asset URLs. -->
+    <script src="api/speech-config.php"></script>
     <script src="js/data/characters.js?v=71"></script>
     <script src="js/speech.js?v=65"></script>
     <script src="js/audio-features.js?v=65"></script>
     <script src="js/voice-engine.js?v=74"></script>
     <script src="js/game.js?v=65"></script>
     <script src="js/audio-manager.js?v=7"></script>
-    <script src="api/speech-config.php"></script>
     <script src="js/azure-speech.js?v=11"></script>
     <script src="js/app.js?v=121"></script>
   </body>

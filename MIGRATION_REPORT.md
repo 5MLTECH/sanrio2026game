@@ -81,6 +81,7 @@ Executed and passed:
 - HTTP `200` for `/` and `/health.php`, `405` for GET on the POST-only pronunciation endpoint, and `404` for an unknown path.
 - Production response headers and safe behavior when Azure configuration is absent.
 - Runtime `APP_URL` rendering in HTML, CSS, and JavaScript configuration using a non-default test origin.
+- Runtime configuration loads before every JavaScript module that constructs an asset URL.
 
 Not executed:
 
