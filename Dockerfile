@@ -1,5 +1,14 @@
 FROM php:8.5.11-apache
 
+RUN apt-get update -qq \
+    && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+      apache2=2.4.71-1~deb13u1 \
+      apache2-bin=2.4.71-1~deb13u1 \
+      apache2-data=2.4.71-1~deb13u1 \
+      apache2-utils=2.4.71-1~deb13u1 \
+    && rm -rf /var/lib/apt/lists/*
+
+
 ENV TZ=Asia/Manila
 
 RUN a2enmod headers rewrite
